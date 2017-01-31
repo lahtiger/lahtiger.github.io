@@ -11,6 +11,7 @@
             header {
                 font-size: 1.5em;
                 font-weight: bold;
+                padding: 10px;
             }
             [id=all-contents] {
                 max-width: 800px;
@@ -23,6 +24,7 @@
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                border-radius: 10px;
             }
             nav header {
                 display: flex;
@@ -46,6 +48,7 @@
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                padding: 10px;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -59,10 +62,14 @@
                 padding: 15px;
             }
             [class=interests] header {
-                font-size: 1.25em;
+                font-size: 1.25em
+            
+            }
+            [id=main-content] {
+                padding: 10px;
             }
         </style>  
-        <title>Joshua's Amazing Website!!!</title>   
+        <title>Joshua's Amazing Website!!!</title>
     </head>
     <body>
         <div id="all-contents">
@@ -74,6 +81,7 @@
                 </ul>
             </nav>
             
+            <div id="main-content">
             <main> 
                 <div class="sidebar">
                     <img src="/stars-feature-1.jpg">
@@ -91,7 +99,8 @@
                         </ul>
                     </section>
                 </div>
-            </main>    
+            </main> 
         </div>
+    </div>
     </body>
 </html>
